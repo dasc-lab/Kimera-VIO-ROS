@@ -25,7 +25,7 @@
   <arg name="use_online_cam_params" value="false"/>
 
   <!-- Change rosbag path if online argument is false -->
-  <arg name="rosbag_path" default=""
+  <arg name="rosbag_path" default="/root/catkin_ws/V1_01_easy.bag"
     unless="$(arg online)"/>
 
   <!-- Frame IDs -->

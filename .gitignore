@@ -39,3 +39,6 @@
 
 # Vscode files
 .vscode/
+
+
+output_logs/
